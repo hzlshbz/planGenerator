@@ -1,4 +1,4 @@
-plan-generator
+ # plan-generator
   The goal of the application is calculating a repayment plan for an annuity plan.
   
   # Build, Run Setup
@@ -25,7 +25,7 @@ java -jar /target/plan-generator-<CURRENT TAG>.jar
 Then load the project in eclipse/idea and run the `PlanGeneratorApplication.java` class.
 
 
-  ##Basic Usage
+  # Basic Usage
   `PlanController.java` is Rest Controller class which includes endpoint method;
 
   - calculatePaymentDetails(@RequestBody LoanDetails loanDetails) 
