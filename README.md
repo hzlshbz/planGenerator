@@ -5,17 +5,21 @@ plan-generator
 
 To build and load the project in your favourite IDE run the following commands from the root folder, prefferably before opening it in the IDE: 
 
+```
 
 #$ mvn clean install
 #$ mvn eclipse:clean eclipse:eclipse
 #$ mvn idea:idea
+```
 
 
 
 For runing simply run the jar in ../target/
 
+```
 
 java -jar /target/plan-generator-<CURRENT TAG>.jar
+```
 
 
 Then load the project in eclipse/idea and run the `PlanGeneratorApplication.java` class.
